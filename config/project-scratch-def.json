@@ -1,13 +1,44 @@
 {
-    "orgName": "Dreamhouse",
-    "edition": "Developer",
-    "features": ["Walkthroughs", "EnableSetPasswordInApi"],
-    "settings": {
-        "lightningExperienceSettings": {
-            "enableS1DesktopEnabled": true
-        },
-        "mobileSettings": {
-            "enableS1EncryptedStoragePref2": false
-        }
+  "orgName": "Test Org for Scratch Org Issue",
+  "edition": "Enterprise",
+  "features": [
+    "Walkthroughs",
+    "ContactsToMultipleAccounts",
+    "PersonAccounts",
+    "FinancialServicesUser:10",
+    "FinancialServicesCommunityUser:10",
+    "FlowSites",
+    "DebugApex",
+    "EnableSetPasswordInApi",
+    "Communities"
+  ],
+  "settings": {
+    "accountSettings": {
+      "enableRelateContactToMultipleAccounts": true,
+      "enableAccountHistoryTracking": true
+    },
+    "emailAdministrationSettings": {
+      "enableEnhancedEmailEnabled": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "chatterSettings": {
+      "enableChatter": true
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "industriesSettings": {
+      "enableAccessToMasterListOfCoverageTypes": true
     }
+  },
+  "objectSettings": {
+    "account": {
+      "defaultRecordType": "PersonAccount"
+    }
+  }
 }
